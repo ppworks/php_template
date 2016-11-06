@@ -8,5 +8,8 @@
             "email": "koshikawa@ppworks.jp"
         }
     ],
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "@stable"
+    }
 }
