@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if [ ! $PORT ]; then
+  PORT=3000
+fi
+
+if [ ! $PHPD_ENV ]; then
+  PHPD_ENV=development
+fi
+
+php -S localhost:$PORT -c $PWD/etc/php.ini.$PHPD_ENV -t $PWD/public_html
