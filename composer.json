@@ -8,6 +8,11 @@
             "email": "koshikawa@ppworks.jp"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
     "require": {},
     "require-dev": {
         "phpunit/phpunit": "@stable"
