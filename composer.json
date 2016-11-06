@@ -15,6 +15,7 @@
     },
     "require": {},
     "require-dev": {
-        "phpunit/phpunit": "@stable"
+        "phpunit/phpunit": "@stable",
+        "friendsofphp/php-cs-fixer": "@stable"
     }
 }
