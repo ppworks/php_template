@@ -1,0 +1,12 @@
+{
+    "name": "ppworks/php_template",
+    "description": "php template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ppworks",
+            "email": "koshikawa@ppworks.jp"
+        }
+    ],
+    "require": {}
+}
